@@ -1,0 +1,10 @@
+{
+   "extensions":
+   [
+      "cljs"
+   ],
+   "word_separators": "/\\()\"',;@$%^&|[]{}`~",
+   "tab_size": 2,
+   "auto_match_enabled": true,
+   "trim_trailing_white_space_on_save": true
+}

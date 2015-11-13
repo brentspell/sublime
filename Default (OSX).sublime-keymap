@@ -1,0 +1,126 @@
+[
+   { "keys": ["ctrl+tab"], "command": "next_view" },
+   { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+   { "keys": ["ctrl+shift+l"], "command": "lower_case" },
+   { "keys": ["ctrl+shift+u"], "command": "upper_case" },
+   { "keys": ["super+h"], "command": "show_panel", "args": {"panel": "replace"} },
+   { "keys": ["super+a"], "command": "replace_all", "args": {"close_panel": false},
+       "context": [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
+   },
+   { "keys": ["super+i"], "command": "toggle_case_sensitive", "context":
+      [
+         { "key": "setting.is_widget", "operator": "equal", "operand": true }
+      ]
+   },
+   { "keys": ["super+r"], "command": "toggle_regex", "context":
+      [
+         { "key": "setting.is_widget", "operator": "equal", "operand": true }
+      ]
+   },
+   { "keys": ["super+w"], "command": "toggle_whole_word", "context":
+      [
+         { "key": "setting.is_widget", "operator": "equal", "operand": true }
+      ]
+   },
+   { "keys": ["ctrl+left"], "command": "move", "args": {"by": "words", "forward": false} },
+   { "keys": ["ctrl+right"], "command": "move", "args": {"by": "words", "forward": true} },
+   { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 5.0} },
+   { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -5.0} },
+   { "keys": ["ctrl+shift+left"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
+   { "keys": ["ctrl+shift+right"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
+   { "keys": ["ctrl+shift+up"], "command": "select_lines", "args": {"forward": false} },
+   { "keys": ["ctrl+shift+down"], "command": "select_lines", "args": {"forward": true} },
+   { "keys": ["ctrl+shift+x"], "command": "auto_indent" },
+   { "keys": ["ctrl+shift+n"], "command": "text_pastry_show_menu" },
+   { "keys": ["home"], "command": "move_to", "args": {"to": "bol"} },
+   { "keys": ["end"], "command": "move_to", "args": {"to": "eol"} },
+   { "keys": ["shift+end"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+   { "keys": ["shift+home"], "command": "move_to", "args": {"to": "bol", "extend": true } },
+   { "keys": ["ctrl+home"], "command": "move_to", "args": {"to": "bof"} },
+   { "keys": ["ctrl+end"], "command": "move_to", "args": {"to": "eof"} },
+   { "keys": ["ctrl+shift+home"], "command": "move_to", "args": {"to": "bof", "extend": true} },
+   { "keys": ["ctrl+shift+end"], "command": "move_to", "args": {"to": "eof", "extend": true} },
+   { "keys": ["super+enter"], "command": "next_result" },
+
+   { "keys": ["alt+1"], "command": "focus_group", "args": { "group": 0 } },
+   { "keys": ["alt+2"], "command": "focus_group", "args": { "group": 1 } },
+   { "keys": ["alt+3"], "command": "focus_group", "args": { "group": 2 } },
+   { "keys": ["alt+4"], "command": "focus_group", "args": { "group": 3 } },
+   { "keys": ["alt+shift+1"], "command": "move_to_group", "args": { "group": 0 } },
+   { "keys": ["alt+shift+2"], "command": "move_to_group", "args": { "group": 1 } },
+   { "keys": ["alt+shift+3"], "command": "move_to_group", "args": { "group": 2 } },
+   { "keys": ["alt+shift+4"], "command": "move_to_group", "args": { "group": 3 } },
+   { "keys": ["alt+`"], "command": "focus_side_bar" },
+   { "keys": ["super+`"], "command": "reveal_in_side_bar"},
+
+   { "keys": ["super+p"], "command": "expand_selection_to_paragraph" },
+
+   { "keys": ["alt+left"], "command": "paredit_backward", "context": [{"key": "should_paredit"}] },
+   { "keys": ["alt+right"], "command": "paredit_forward", "context": [{"key": "should_paredit"}] },
+   { "keys": ["alt+up"], "command": "paredit_backward_up", "context": [{"key": "should_paredit"}] },
+   { "keys": ["alt+down"], "command": "paredit_forward_down", "context": [{"key": "should_paredit"}] },
+   { "keys": ["alt+shift+right"], "command": "paredit_backward_barf_sexp", "context": [{"key": "should_paredit"}] },
+   { "keys": ["ctrl+alt+left"], "command": "paredit_forward_barf_sexp", "context": [{"key": "should_paredit"}] },
+   { "keys": ["alt+shift+left"], "command": "paredit_backward_slurp_sexp", "context": [{"key": "should_paredit"}] },
+   { "keys": ["ctrl+alt+right"], "command": "paredit_forward_slurp_sexp", "context": [{"key": "should_paredit"}] },
+   { "keys": ["'"], "command": "insert","args": {"characters": "'"}, "context": [{"key": "should_paredit"}] },
+
+   { "keys": ["ctrl+l"], "command": "repl_clear",
+   "context":
+      [
+         { "key": "setting.repl", "operator": "equal", "operand": true }
+      ]
+   },
+
+   // go to left bracket
+   {
+      "keys": ["super+["],
+      "command": "bh_key",
+      "args":
+      {
+          "no_outside_adj": true,
+          "lines" : true,
+          "plugin":
+          {
+              "type": ["__all__"],
+              "command": "bh_modules.bracketselect",
+              "args": {"select": "left"}
+          }
+      }
+   },
+   // go to right bracket
+   {
+       "keys": ["super+]"],
+       "command": "bh_key",
+       "args":
+       {
+           "no_outside_adj": true,
+           "lines" : true,
+           "plugin":
+           {
+               "type": ["__all__"],
+               "command": "bh_modules.bracketselect",
+               "args": {"select": "right"}
+           }
+       }
+   },
+   // select text including brackets
+   {
+      "keys": ["super+p"],
+      "caption": "BracketHighlighter: Select Bracket Content with Brackets",
+      "command": "bh_key",
+      "args":
+      {
+         "no_outside_adj": true,
+         "lines" : true,
+         "plugin":
+         {
+            "type": ["__all__"],
+            "command": "bh_modules.bracketselect",
+            "args": {"always_include_brackets": true}
+         }
+      }
+   },
+   { "keys": ["ctrl+f", "f"], "command": "insert","args": {"characters": ""} }
+
+]
