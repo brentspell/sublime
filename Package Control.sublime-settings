@@ -10,6 +10,7 @@
 		"Indent XML",
 		"lispindent",
 		"Package Control",
+		"PackageResourceViewer",
 		"paredit",
 		"SublimeREPL"
 	]
