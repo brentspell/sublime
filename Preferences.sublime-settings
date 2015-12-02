@@ -1,4 +1,15 @@
 {
+	"added_words":
+	[
+		"waitlist",
+		"peerstack",
+		"treelog",
+		"nodejs",
+		"Menne",
+		"Kobernik",
+		"Q4",
+		"onboarding"
+	],
 	"auto_complete": false,
 	"auto_match_enabled": false,
 	"color_scheme": "Packages/Color Scheme - Default/LAZY.tmTheme",
@@ -26,5 +37,6 @@
 	"use_tab_stops": true,
 	"wide_caret": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
-	"word_wrap": false
+	"word_wrap": false,
+   "auto_find_in_selection": true
 }
