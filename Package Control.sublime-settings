@@ -5,13 +5,16 @@
 	],
 	"installed_packages":
 	[
+		"1337 Color Scheme",
 		"BracketHighlighter",
+		"Dayle Rees Color Schemes",
 		"Enhanced Clojure",
 		"Indent XML",
 		"lispindent",
 		"Package Control",
 		"PackageResourceViewer",
 		"paredit",
+		"Prolog",
 		"SublimeREPL"
 	]
 }
