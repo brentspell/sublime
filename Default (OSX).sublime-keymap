@@ -27,8 +27,8 @@
          { "key": "setting.is_widget", "operator": "equal", "operand": true }
       ]
    },
-   { "keys": ["ctrl+left"], "command": "move", "args": {"by": "words", "forward": false} },
-   { "keys": ["ctrl+right"], "command": "move", "args": {"by": "words", "forward": true} },
+   { "keys": ["alt+left"], "command": "move", "args": {"by": "words", "forward": false} },
+   { "keys": ["alt+right"], "command": "move", "args": {"by": "words", "forward": true} },
    { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 5.0} },
    { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -5.0} },
    { "keys": ["ctrl+shift+left"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
@@ -60,13 +60,13 @@
 
    { "keys": ["super+p"], "command": "expand_selection_to_paragraph" },
 
-   { "keys": ["alt+left"], "command": "paredit_backward", "context": [{"key": "should_paredit"}] },
-   { "keys": ["alt+right"], "command": "paredit_forward", "context": [{"key": "should_paredit"}] },
+   { "keys": ["ctrl+left"], "command": "paredit_backward", "context": [{"key": "should_paredit"}] },
+   { "keys": ["ctrl+right"], "command": "paredit_forward", "context": [{"key": "should_paredit"}] },
    { "keys": ["alt+up"], "command": "paredit_backward_up", "context": [{"key": "should_paredit"}] },
    { "keys": ["alt+down"], "command": "paredit_forward_down", "context": [{"key": "should_paredit"}] },
-   { "keys": ["alt+shift+right"], "command": "paredit_backward_barf_sexp", "context": [{"key": "should_paredit"}] },
+   { "keys": ["ctrl+shift+right"], "command": "paredit_backward_barf_sexp", "context": [{"key": "should_paredit"}] },
    { "keys": ["ctrl+alt+left"], "command": "paredit_forward_barf_sexp", "context": [{"key": "should_paredit"}] },
-   { "keys": ["alt+shift+left"], "command": "paredit_backward_slurp_sexp", "context": [{"key": "should_paredit"}] },
+   { "keys": ["ctrl+shift+left"], "command": "paredit_backward_slurp_sexp", "context": [{"key": "should_paredit"}] },
    { "keys": ["ctrl+alt+right"], "command": "paredit_forward_slurp_sexp", "context": [{"key": "should_paredit"}] },
    { "keys": ["'"], "command": "insert","args": {"characters": "'"}, "context": [{"key": "should_paredit"}] },
 

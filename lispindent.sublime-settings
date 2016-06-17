@@ -10,7 +10,10 @@
           "defprotocol|extend|extend-protocol|extend-type|try|catch|finally|let|letfn|binding|loop|for|",
           "doseq|dotimes|when-let|if-let|defstruct|struct-map|assoc|defmethod|testing|deftest|use-fixtures|",
           "handler-case|handle|dotrace|deftrace|",
-          "go-loop|[^/]+/go-loop)$"]
+          "thrown-with-msg\\?|",
+          "[^/]*/?(go-.*|when<!!?\\??|if<!!?\\??|while<!!?\\??)|",
+          "for-all|gen/let|",
+          ")$"]
       },
 
       "hy": {
