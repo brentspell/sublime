@@ -1,5 +1,5 @@
 {
 	"enable_hdevtools": false,
    "format_multiline": false,
-   "add_to_PATH": ["/Users/bspell/.cabal/bin"]
+   "add_to_PATH": ["/Users/brent/.cabal/bin"]
 }
