@@ -1,0 +1,27 @@
+[
+     {
+        "id": "tools",
+        "children":
+        [{
+            "caption": "SublimeREPL",
+            "mnemonic": "r",
+            "id": "SublimeREPL",
+            "children":
+            [
+                {"command": "repl_open",
+                 "caption": "Prolog",
+                 "id": "repl_prolog",
+                 "mnemonic": "l",
+                 "args": {
+                    "type": "subprocess",
+                    "encoding": "utf8",
+                    "cmd": ["swipl"],
+                    "cwd": "$file_path",
+                    "external_id": "prolog",
+                    "syntax": "Packages/Prolog/Prolog.tmLanguage"
+                    }
+                }
+            ]
+        }]
+    }
+]
