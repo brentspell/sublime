@@ -1,4 +1,7 @@
 {
-   "tab_size": 3,
-   "spell_check": false
+	"extensions":
+	[
+	],
+	"spell_check": false,
+	"tab_size": 3
 }

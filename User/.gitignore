@@ -6,3 +6,4 @@
 *.merged-ca-bundle
 *.system-ca-bundle
 *.user-ca-bundle
+oscrypto-ca-bundle.crt
