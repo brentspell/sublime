@@ -19,6 +19,7 @@
 		"Prolog",
 		"Sass",
 		"SublimeHaskell",
-		"SublimeREPL"
+		"SublimeREPL",
+		"Virtualenv"
 	]
 }
