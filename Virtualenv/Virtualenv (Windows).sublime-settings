@@ -1,0 +1,8 @@
+// Default settings for Virtualenv plugin in Windows systems:
+{
+    // Directory paths searched for virtualenvs.
+    // First one will be used as default destination for new virtualenvs.
+    "virtualenv_directories": [
+        "~\\Envs",  // virtualenwrapper-win %WORKON_HOME%
+    ]
+}

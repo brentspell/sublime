@@ -1,0 +1,37 @@
+[{
+    "caption": "Preferences",
+    "id": "preferences",
+    "mnemonic": "n",
+    "children": [{
+        "caption": "Package Settings",
+        "id": "package-settings",
+        "mnemonic": "P",
+        "children": [{
+            "caption": "Virtualenv",
+            "children": [
+                {
+                    "caption": "README",
+                    "command": "open_file",
+                    "args": {
+                        "file": "${packages}/Virtualenv/README.md"
+                    }
+                },
+                { "caption": "-" },
+                {
+                    "caption": "Settings – Default",
+                    "command": "open_file",
+                    "args": {
+                        "file": "${packages}/Virtualenv/Virtualenv.sublime-settings"
+                    }
+                },
+                {
+                    "caption": "Settings – User",
+                    "command": "open_file",
+                    "args": {
+                        "file": "${packages}/User/Virtualenv.sublime-settings"
+                    }
+                }
+            ]
+        }]
+    }]
+}]

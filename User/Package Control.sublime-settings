@@ -18,7 +18,9 @@
 		"paredit",
 		"Prolog",
 		"Sass",
-		"SublimeHaskell",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"SublimeLinter-javac",
 		"SublimeREPL",
 		"Virtualenv"
 	]
