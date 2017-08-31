@@ -9,8 +9,12 @@
 		"Babel",
 		"BracketHighlighter",
 		"Dayle Rees Color Schemes",
+		"Dockerfile Syntax Highlighting",
+		"Elixir",
 		"Enhanced Clojure",
+		"HexViewer",
 		"Indent XML",
+		"Kivy Language",
 		"lispindent",
 		"orgmode",
 		"Package Control",
@@ -22,6 +26,7 @@
 		"SublimeLinter-flake8",
 		"SublimeLinter-javac",
 		"SublimeREPL",
-		"Virtualenv"
+		"Virtualenv",
+		"Vue Syntax Highlight"
 	]
 }

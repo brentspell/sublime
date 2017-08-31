@@ -27,6 +27,16 @@
 	"detect_slow_plugins": false,
 	"drag_text": false,
 	"draw_white_space": "none",
+	"file_exclude_patterns":
+	[
+		"__init__.py",
+		".DS_Store"
+	],
+	"folder_exclude_patterns":
+	[
+		"__pycache__",
+		"__init__.py"
+	],
 	"font_face": "Monaco",
 	"font_size": 12.0,
 	"ignored_packages":

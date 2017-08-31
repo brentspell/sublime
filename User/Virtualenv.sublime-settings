@@ -1,7 +1,10 @@
 {
 	"virtualenv_directories":
 	[
-		"/Users/brent/prj/lab/ml/.venv",
-		"/Users/brent/prj/lab/ml"
+		"/Users/brent/.pyenv/versions/saben-core",
+		"/Users/brent/.pyenv/versions/saben-ml",
+		"/Users/brent/.pyenv/versions/ml-lab",
+		"/Users/brent/.pyenv/versions/pylon-report",
+		"/Users/brent/.pyenv/versions/word2chef"
 	]
 }
