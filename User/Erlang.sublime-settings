@@ -1,7 +1,8 @@
 {
 	"extensions":
 	[
-		"tf"
+		"yrl",
+		"xrl"
 	],
 	"tab_size": 2
 }

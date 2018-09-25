@@ -14,7 +14,7 @@
                  "args": {
                     "type": "subprocess",
                     "encoding": "utf8",
-                    "cmd": ["iex"],
+                    "cmd": ["iex", "-S", "mix"],
                     "cwd": "$file_path",
                     "syntax": "Packages/Elixir/Syntaxes/Elixir.tmLanguage",
                     "external_id": "elixir",

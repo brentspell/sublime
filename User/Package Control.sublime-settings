@@ -10,24 +10,25 @@
 		"BracketHighlighter",
 		"Dayle Rees Color Schemes",
 		"Dockerfile Syntax Highlighting",
+		"DokuWiki Syntax",
 		"Elixir",
 		"Enhanced Clojure",
 		"HexViewer",
 		"HOCON Syntax Highlighting",
 		"Indent XML",
 		"Kivy Language",
+		"Kotlin",
 		"lispindent",
 		"orgmode",
 		"Package Control",
 		"PackageResourceViewer",
 		"paredit",
 		"Prolog",
+		"Protobuf Syntax Hightlighting",
 		"Sass",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
-		"SublimeLinter-javac",
 		"SublimeREPL",
-		"Virtualenv",
-		"Vue Syntax Highlight"
+		"Virtualenv"
 	]
 }
