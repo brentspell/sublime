@@ -44,11 +44,13 @@
 	"index_files": false,
 	"line_numbers": false,
 	"match_brackets": false,
+	"mini_diff": "auto",
 	"rulers":
 	[
 		77
 	],
 	"scroll_past_end": true,
+	"show_git_status": false,
 	"tab_completion": false,
 	"tab_size": 3,
 	"translate_tabs_to_spaces": true,

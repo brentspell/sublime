@@ -1,7 +1,8 @@
 {
 	"extensions":
 	[
-		"vue"
+		"vue",
+		"ts"
 	],
 	"spell_check": false,
 	"tab_size": 2
