@@ -1,0 +1,8 @@
+// List all your connections to DBs here
+{
+  "connections": {
+    "rb-staging": {"type": "sqlite", "database": "/Users/brent/mnt/fieri/var/pylon/data/music/staging.db"},
+    "rb-runtime": {"type": "sqlite", "database": "/Users/brent/prj/pylon/api/priv/radiobrain/radiobrain.db"}
+  },
+  "default": null
+}

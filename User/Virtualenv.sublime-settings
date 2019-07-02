@@ -1,14 +1,6 @@
 {
 	"virtualenv_directories":
 	[
-		"/Users/brent/.pyenv/versions/saben-core",
-		"/Users/brent/.pyenv/versions/saben-ml",
-		"/Users/brent/.pyenv/versions/ml-lab",
-		"/Users/brent/.pyenv/versions/pylon-report",
-		"/Users/brent/.pyenv/versions/word2chef",
-		"/Users/brent/prj/lab/ashlad",
-		"/Users/brent/prj/lab/ashlad",
-		"/Users/brent/.pyenv/versions/ashlad",
-		"/Users/brent/.pyenv/versions/pylon-ontoology"
+		"/Users/brent/.pyenv/versions/repl/"
 	]
 }
